@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("What2Wear")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3edbe259ecff52f1f5b13972e022c4341e73dc61")]
 [assembly: System.Reflection.AssemblyProductAttribute("What2Wear")]
 [assembly: System.Reflection.AssemblyTitleAttribute("What2Wear")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

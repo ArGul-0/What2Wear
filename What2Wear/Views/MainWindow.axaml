@@ -3,7 +3,8 @@
         xmlns:vm="using:What2Wear.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="200"
+        Width="200" Height="200"
         x:Class="What2Wear.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
@@ -15,6 +16,12 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    
+    <Grid>
+        <StackPanel Margin="20" Spacing="25" Orientation="Vertical">
+            <TextBox HorizontalAlignment="Center"></TextBox>
+            <Button Content="Find..." HorizontalAlignment="Center"></Button>
+            <TextBlock Text="..." HorizontalAlignment="Center"></TextBlock>
+        </StackPanel>
+    </Grid>
 
 </Window>
