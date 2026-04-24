@@ -20,7 +20,7 @@
         <StackPanel Margin="20" Spacing="25" Orientation="Vertical">
             <TextBox HorizontalAlignment="Center" CornerRadius="10" FontFamily="Inter"></TextBox>
             <Button Content="Find..." CornerRadius="10" FontFamily="Inter" 
-                    HorizontalAlignment="Center"></Button>
+                    HorizontalAlignment="Center"></Button>git status
             <TextBlock Text="..." FontFamily="Inter" 
                        HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
