@@ -13,7 +13,22 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="017e8a7f-9fea-4fac-bbb6-0925ca6ef5af" name="Изменения" comment="" />
+    <list default="true" id="017e8a7f-9fea-4fac-bbb6-0925ca6ef5af" name="Изменения" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.What2Wear/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.What2Wear/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.What2Wear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.What2Wear/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/ref/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/ref/What2Wear.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/refint/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/refint/What2Wear.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ArGul-0"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ArGul-0/What2Wear.git",
+    "accountId": "da544710-07eb-4cfc-aeec-ea25c3d8db79"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -95,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776804687813</updated>
       <workItem from="1776804692803" duration="160000" />
-      <workItem from="1777025961329" duration="1069000" />
+      <workItem from="1777025961329" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="Created base UI/UX.">
       <option name="closed" value="true" />
@@ -105,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777026840355</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix .gitignore.">
+      <option name="closed" value="true" />
+      <created>1777027225383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777027225383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +162,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Created base UI/UX." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created base UI/UX." />
+    <MESSAGE value="Fix .gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix .gitignore." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="What2Wear/App.axaml" value="What2Wear/What2Wear.csproj" />
         <entry key="What2Wear/Views/MainWindow.axaml" value="What2Wear/What2Wear.csproj" />
       </map>
     </option>
