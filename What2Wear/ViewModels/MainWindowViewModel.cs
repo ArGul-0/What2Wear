@@ -11,7 +11,7 @@ public partial class MainWindowViewModel : ViewModelBase
     private string whatToWear = "...";
 
     [ObservableProperty] 
-    private string nameOfCity;
+    private string? nameOfCity;
 
     [RelayCommand]
     private void Find(ICityFinder cityFinder)
