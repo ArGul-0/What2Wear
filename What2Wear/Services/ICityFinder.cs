@@ -5,5 +5,5 @@ namespace What2Wear.Services;
 
 public interface ICityFinder
 {
-    public Task<GeoResult?> FindCity(string city);
+    public Task<GeoResult?> FindCityAsync(string city);
 }

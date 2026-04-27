@@ -15,7 +15,7 @@ public class CityFinder : ICityFinder
         this.httpClient = httpClient;
     }
     
-    public async Task<GeoResult?> FindCity(string city)
+    public async Task<GeoResult?> FindCityAsync(string city)
     {
         var url = $"https://geocoding-api.open-meteo.com/v1/search?name={city}";
         

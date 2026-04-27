@@ -45,5 +45,6 @@ public partial class App : Application
 
         // Services
         services.AddScoped<ICityFinder, CityFinder>();
+        services.AddScoped<IGetWeather, GetWeather>();
     }
 }
