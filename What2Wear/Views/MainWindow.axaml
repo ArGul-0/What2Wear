@@ -21,7 +21,8 @@
             <TextBox HorizontalAlignment="Center" CornerRadius="10" FontFamily="Inter"
                      Text="{Binding NameOfCity}"></TextBox>
             <Button Content="Find..." CornerRadius="10" FontFamily="Inter" 
-                    HorizontalAlignment="Center"></Button>
+                    HorizontalAlignment="Center"
+                    Command="{Binding FindCommand}"></Button>
             <TextBlock Text="{Binding WhatToWear}" FontFamily="Inter" 
                        HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
