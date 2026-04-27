@@ -14,15 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="017e8a7f-9fea-4fac-bbb6-0925ca6ef5af" name="Изменения" comment="">
-      <change beforePath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/bin/Debug/net10.0/What2Wear.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.What2Wear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.What2Wear/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/What2Wear.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/ref/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/ref/What2Wear.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/refint/What2Wear.dll" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/Debug/net10.0/refint/What2Wear.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What2Wear/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/What2Wear/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,9 @@
     <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -123,7 +121,8 @@
       <workItem from="1777028277869" duration="486000" />
       <workItem from="1777028811107" duration="592000" />
       <workItem from="1777031313097" duration="1100000" />
-      <workItem from="1777216627569" duration="76000" />
+      <workItem from="1777216627569" duration="270000" />
+      <workItem from="1777276848431" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="Created base UI/UX.">
       <option name="closed" value="true" />
@@ -165,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777029187017</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added services folder and DI NuGet Package.">
+      <option name="closed" value="true" />
+      <created>1777216768242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777216768242</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +199,8 @@
     <MESSAGE value="Added Newtonsoft.Json NuGet package." />
     <MESSAGE value="FIX FUCKING GITIGNORE AAAAAA I HATE RIDER." />
     <MESSAGE value="Fix syntax error in MainViewModel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix syntax error in MainViewModel." />
+    <MESSAGE value="Added services folder and DI NuGet Package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added services folder and DI NuGet Package." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

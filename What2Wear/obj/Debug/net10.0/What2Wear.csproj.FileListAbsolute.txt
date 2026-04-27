@@ -75,3 +75,4 @@
 /mnt/nvme/Projects/JetBrains Rider Projects/C#/AvaloniaUI Projects/What2Wear/What2Wear/obj/Debug/net10.0/What2Wear.genruntimeconfig.cache
 /mnt/nvme/Projects/JetBrains Rider Projects/C#/AvaloniaUI Projects/What2Wear/What2Wear/obj/Debug/net10.0/ref/What2Wear.dll
 /mnt/nvme/Projects/JetBrains Rider Projects/C#/AvaloniaUI Projects/What2Wear/What2Wear/bin/Debug/net10.0/Newtonsoft.Json.dll
+/mnt/nvme/Projects/JetBrains Rider Projects/C#/AvaloniaUI Projects/What2Wear/What2Wear/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll
