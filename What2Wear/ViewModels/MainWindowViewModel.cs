@@ -6,4 +6,7 @@ public partial class MainWindowViewModel : ViewModelBase
 {
     [ObservableProperty]
     private string whatToWear = "...";
+
+    [ObservableProperty] 
+    private string nameOfCity;
 }

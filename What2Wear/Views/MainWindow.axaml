@@ -18,7 +18,8 @@
 
     <Grid>
         <StackPanel Margin="20" Spacing="25" Orientation="Vertical">
-            <TextBox HorizontalAlignment="Center" CornerRadius="10" FontFamily="Inter"></TextBox>
+            <TextBox HorizontalAlignment="Center" CornerRadius="10" FontFamily="Inter"
+                     Text="{Binding NameOfCity}"></TextBox>
             <Button Content="Find..." CornerRadius="10" FontFamily="Inter" 
                     HorizontalAlignment="Center"></Button>
             <TextBlock Text="{Binding WhatToWear}" FontFamily="Inter" 
