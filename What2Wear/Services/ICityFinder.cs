@@ -1,6 +1,9 @@
+using System.Threading.Tasks;
+using What2Wear.Models;
+
 namespace What2Wear.Services;
 
 public interface ICityFinder
 {
-    public string FindCity(string name);
+    public Task<GeoResult?> FindCity(string city);
 }

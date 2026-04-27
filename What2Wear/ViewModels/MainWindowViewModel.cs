@@ -16,6 +16,6 @@ public partial class MainWindowViewModel : ViewModelBase
     [RelayCommand]
     private void Find(ICityFinder cityFinder)
     {
-        cityFinder.FindCity(nameOfCity);
+        var coordinates = cityFinder.FindCity(nameOfCity);
     }
 }

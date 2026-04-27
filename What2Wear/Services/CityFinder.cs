@@ -1,9 +1,27 @@
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using What2Wear.Models;
+
 namespace What2Wear.Services;
 
 public class CityFinder : ICityFinder
 {
-    public string FindCity(string name)
+    private readonly HttpClient httpClient;
+
+    public CityFinder(HttpClient httpClient)
     {
-        throw new System.NotImplementedException();
+        this.httpClient = httpClient;
+    }
+    
+    public async Task<GeoResult?> FindCity(string city)
+    {
+        var url = $"https://geocoding-api.open-meteo.com/v1/search?name={city}";
+        
+        var json = await httpClient.GetStringAsync(url);
+        var data = JsonConvert.DeserializeObject<GeoResponse>(json);
+
+        return data?.Results?.FirstOrDefault();
     }
 }
