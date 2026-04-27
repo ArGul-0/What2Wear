@@ -30,7 +30,7 @@ public partial class App : Application
         {
             desktop.MainWindow = new MainWindow
             {
-                DataContext = new MainWindowViewModel(),
+                DataContext = ServiceProvider.GetRequiredService<MainWindowViewModel>()
             };
         }
 
@@ -40,11 +40,13 @@ public partial class App : Application
     private void ConfigureServices(IServiceCollection services)
     {
         // ViewModels
-
+        services.AddSingleton<MainWindowViewModel>();
+        
         // Windows
 
         // Services
-        services.AddScoped<ICityFinder, CityFinder>();
         services.AddScoped<IGetWeather, GetWeather>();
+        services.AddHttpClient<ICityFinder, CityFinder>();
+        services.AddHttpClient<IGetWeather, GetWeather>();
     }
 }

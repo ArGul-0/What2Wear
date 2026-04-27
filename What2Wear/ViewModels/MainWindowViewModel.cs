@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using What2Wear.Services;
 
@@ -22,13 +23,15 @@ public partial class MainWindowViewModel : ViewModelBase
     private string? nameOfCity;
 
     [RelayCommand]
-    private async void Find()
+    private async Task Find()
     {
         if (string.IsNullOrWhiteSpace(nameOfCity))
         {
             WhatToWear = "Please enter a city name";
             return;
         }
+        
+        WhatToWear = "Searching City...";
         
         var city = await cityFinder.FindCityAsync(nameOfCity);
 
@@ -38,9 +41,15 @@ public partial class MainWindowViewModel : ViewModelBase
             return;
         }
 
-        WhatToWear = "Loading...";
+        WhatToWear = "Loading Weather...";
         
         var weather = await weatherService.GetWeatherAsync(city.Latitude, city.Longitude);
+        
+        if (weather == null)
+        {
+            WhatToWear = "Failed to get weather";
+            return;
+        }
         
         WhatToWear = BuildAdvice(weather);
     }
@@ -57,7 +66,7 @@ public partial class MainWindowViewModel : ViewModelBase
             return "🧥 Very Cold, Take A Jacket";
 
         if (temp < 10)
-            return "🧥 Cold, Take A Zip-Up Jacket";
+            return "🧥 Cold, Take A Lightweight Jacket";
 
         if (temp < 20)
             return "👕 Warm, Take A Sweater";

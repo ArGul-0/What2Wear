@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -14,14 +15,32 @@ public class CityFinder : ICityFinder
     {
         this.httpClient = httpClient;
     }
-    
+
     public async Task<GeoResult?> FindCityAsync(string city)
     {
-        var url = $"https://geocoding-api.open-meteo.com/v1/search?name={city}";
-        
-        var json = await httpClient.GetStringAsync(url);
-        var data = JsonConvert.DeserializeObject<GeoResponse>(json);
+        if (string.IsNullOrWhiteSpace(city))
+            return null;
 
-        return data?.Results?.FirstOrDefault();
+        var encodedCity = WebUtility.UrlEncode(city);
+
+        var url = $"https://geocoding-api.open-meteo.com/v1/search?name={encodedCity}&count=1";
+
+        try
+        {
+            var response = await httpClient.GetAsync(url);
+
+            if (!response.IsSuccessStatusCode)
+                return null;
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            var data = JsonConvert.DeserializeObject<GeoResponse>(json);
+
+            return data?.Results?.FirstOrDefault();
+        }
+        catch
+        {
+            return null;
+        }
     }
 }
